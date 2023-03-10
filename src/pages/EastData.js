@@ -1,4 +1,4 @@
-export default [
+const EastData = [
   {
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOPsS16WObaQVVnY8VgXaSD9guvC3xD-lUg&usqp=CAU",
     name: "WEST BENGAL",
@@ -15,3 +15,5 @@ export default [
     des: "Discover the serenity of the Himalayas and indulge in adventure activities in Sikkim.",
   },
 ];
+
+export default EastData

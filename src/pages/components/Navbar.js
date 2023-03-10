@@ -3,6 +3,7 @@ import Slides from "./Slides";
 import Typewriter from "typewriter-effect";
 import { easeIn, motion } from "framer-motion";
 import { Transition } from "@headlessui/react";
+import Image from "next/image";
 
 
 export default function Navbar() {
@@ -23,12 +24,13 @@ export default function Navbar() {
           className="flex md:mr-0 justify-between items-center w-[92%] pt-4 pl-4 flex-col md:flex-row mr-0 md:bg-black/0 "
         >
           <div className="align-logo">
-            <img
-              className="w-40 pt-2"
+            <Image
+              width={160} height={100}
+              className="w-40 pt-2 object-contain md:mx-4"
               src="https://i.ibb.co/Fm28TLK/logo-no-background.png"
               class="img-fluid rounded-top"
               alt=""
-            />
+            ></Image>
           </div>
           <div className="">
             <ul className="flex items-center flex-row mt-4 md:flex-row md:mt-0 gap-[4vw]">

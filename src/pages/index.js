@@ -4,10 +4,10 @@ import Navbar from "./components/Navbar";
 import Slides from "./components/Slides";
 import Quotes from "./components/Quotes";
 import Places from "./components/Places";
-import NorthData from "./North-Data";
-import WestData from "./West-Data";
-import SouthData from "./South-Data";
-import EastData from "./East-Data";
+import NorthData from "./NorthData";
+import WestData from "./WestData";
+import SouthData from "./SouthData";
+import EastData from "./EastData";
 import { motion, useScroll } from "framer-motion";
 
 export default function Home() {

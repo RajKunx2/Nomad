@@ -1,5 +1,6 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -28,10 +29,10 @@ export default function Footer() {
             SECURITY AND PAYMENTS
           </div>
           <div>
-            <img
-              className="h-8 mt-3 w-auto m-auto"
+            <Image width={240} height={32}
+              className="h-8 mt-3 w-60 m-auto object-contain"
               src="https://www.linkpicture.com/q/pngwing.com_53.png"
-            ></img>
+            ></Image>
           </div>
         </div>
         <div className="m-auto flex justify-center align-middle flex-col bg-opacity-10 backdrop-blur-xl">
@@ -39,10 +40,10 @@ export default function Footer() {
             KEEP IN TOUCH
           </div>
           <div>
-            <img
-              className="h-16 bg-opacity-10 w-auto m-auto mt-0"
+            <Image width={240} height={32}
+              className="h-16 bg-opacity-10 w-60 m-auto mt-0 object-contain"
               src="https://www.linkpicture.com/q/logo_734.png"
-            ></img>
+            ></Image>
           </div>
         </div>
       </div>
