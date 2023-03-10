@@ -13,16 +13,16 @@ import { motion, useScroll } from "framer-motion";
 export default function Home() {
   const { scrollYProgress } = useScroll();
   const main1 = NorthData.map((item) => {
-    return <Places {...item} />;
+    return <Places {...item} key={item.id} />;
   });
   const main2 = WestData.map((item) => {
-    return <Places {...item} />;
+    return <Places {...item} key={item.id} />;
   });
   const main3 = SouthData.map((item) => {
-    return <Places {...item} />;
+    return <Places {...item} key={item.id} />;
   });
   const main4 = EastData.map((item) => {
-    return <Places {...item} />;
+    return <Places {...item} key={item.id} />;
   });
   return (
     <>

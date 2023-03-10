@@ -10,8 +10,8 @@ export default function Quotes() {
           id="quote"
         >
           <i>
-            "Do not follow where the path may lead. Go instead where there is
-            not path and leave a trail"
+          &quot;Do not follow where the path may lead. Go instead where there is
+            not path and leave a trail&quot;
           </i>
           - Ralph Waldo Emerson
         </h1>
