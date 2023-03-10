@@ -34,7 +34,7 @@ export default function Navbar() {
           </div>
           <div className="">
             <ul className="flex items-center flex-row mt-4 md:flex-row md:mt-0 gap-[4vw]">
-              <li className="mx-4 mt-3">
+              <li className="mx-3 mt-3">
                 <a
                   className=" text-white hover:text-slate-300 md:text-white  md:hover:text-slate-700"
                   href="a"
@@ -42,7 +42,7 @@ export default function Navbar() {
                   Hotels
                 </a>
               </li>
-              <li className="mx-4 mt-3">
+              <li className="mx-3 mt-3">
                 <a
                   className=" text-white hover:text-slate-300 md:text-white  md:hover:text-slate-700"
                   href="a"
@@ -50,7 +50,7 @@ export default function Navbar() {
                   Flights
                 </a>
               </li>
-              <li className="mx-4 mt-3">
+              <li className="mx-3 mt-3">
                 <a
                   className=" text-white hover:text-slate-300 md:text-white  md:hover:text-slate-700"
                   href="a"
@@ -58,12 +58,12 @@ export default function Navbar() {
                   Packages
                 </a>
               </li>
-              <li className="mx-4 mt-3">
+              <li className="mx-3 mt-3">
                 <a
                   className=" text-white hover:text-slate-300 md:text-white  md:hover:text-slate-700 "
                   href="a"
                 >
-                  Contact Us
+                  About Us
                 </a>
               </li>
             </ul>
