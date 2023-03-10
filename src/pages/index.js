@@ -4,9 +4,9 @@ import Navbar from "./components/Navbar";
 import Slides from "./components/Slides";
 import Quotes from "./components/Quotes";
 import Places from "./components/Places";
-import NorthData from "./NorthData";
+import NorthData  from "./NorthData";
 import WestData from "./WestData";
-import SouthData from "./SouthData";
+import SouthData  from "./SouthData";
 import EastData from "./EastData";
 import { motion, useScroll } from "framer-motion";
 
