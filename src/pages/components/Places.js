@@ -26,7 +26,7 @@ export default function Places(props) {
         className="bg-[#221b20] border-2 mb-6 pt-0 place-content-stretch border-[#bd8371] w-[300px] h-[400px] rounded-3xl md:flex-wrap md:m-auto flex flex-col md:flex-row justify-center align-middle m-auto md:mx-10 md:mt-[50px]"
       >
         <div className="flex flex-col mt-0 pt-0 md:flex-col justify-center align-middle text-center w-[100%]">
-          <Image width={200} height={200}
+          <Image width={200} height={200} alt=""
             src={props.url}
             className="rounded-[50%] object-cover m-auto border-2 pt-0 text-center border-[#aa705f] w-[200px] h-[200px] mt-[20px] justify-center"
           ></Image>

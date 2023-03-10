@@ -29,7 +29,7 @@ export default function Footer() {
             SECURITY AND PAYMENTS
           </div>
           <div>
-            <Image width={240} height={32}
+            <Image width={240} height={32} alt=""
               className="h-8 mt-3 w-60 m-auto object-contain"
               src="https://www.linkpicture.com/q/pngwing.com_53.png"
             ></Image>
@@ -40,7 +40,7 @@ export default function Footer() {
             KEEP IN TOUCH
           </div>
           <div>
-            <Image width={240} height={32}
+            <Image width={240} height={32} alt=""
               className="h-16 bg-opacity-10 w-60 m-auto mt-0 object-contain"
               src="https://www.linkpicture.com/q/logo_734.png"
             ></Image>

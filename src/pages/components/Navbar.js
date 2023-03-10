@@ -5,7 +5,6 @@ import { easeIn, motion } from "framer-motion";
 import { Transition } from "@headlessui/react";
 import Image from "next/image";
 
-
 export default function Navbar() {
   return (
     <>
@@ -15,7 +14,7 @@ export default function Navbar() {
             x: 0,
           }}
           initial={{
-            x: '-100vh',
+            x: "-100vh",
           }}
           transition={{
             ease: "easeOut",
@@ -25,11 +24,12 @@ export default function Navbar() {
         >
           <div className="align-logo">
             <Image
-              width={160} height={100}
+              alt=""
+              width={160}
+              height={100}
               className="w-40 pt-2 object-contain md:mx-4"
               src="https://i.ibb.co/Fm28TLK/logo-no-background.png"
               class="img-fluid rounded-top"
-              alt=""
             ></Image>
           </div>
           <div className="">
@@ -82,7 +82,6 @@ export default function Navbar() {
           />
         </span>
       </div>
-      
     </>
   );
 }
