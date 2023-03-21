@@ -27,7 +27,7 @@ export default function Slides() {
   return (
     <>
       <div className="flex justify-center bg-opacity-60 backdrop-blur-sm">
-        <h1 className="text-slate-200 font-bold text-5xl m-10">EXPLORE INDIA</h1>
+        <h1 className="text-transparent font-bold text-5xl m-10 bg-clip-text bg-gradient-to-r from-[#a4a4a4] to-[#0000ff]">EXPLORE INDIA</h1>
       </div>
       <Fade>
         <div className="each-slide-effect">

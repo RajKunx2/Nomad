@@ -4,9 +4,9 @@ import Navbar from "./components/Navbar";
 import Slides from "./components/Slides";
 import Quotes from "./components/Quotes";
 import Places from "./components/Places";
-import NorthData  from "src/NorthData.js";
+import NorthData from "src/NorthData.js";
 import WestData from "src/WestData.js";
-import SouthData  from "src/SouthData.js";
+import SouthData from "src/SouthData.js";
 import EastData from "src/EastData.js";
 import { motion, useScroll } from "framer-motion";
 
@@ -33,7 +33,7 @@ export default function Home() {
       <Navbar />
       <Slides />
       <Quotes />
-      <h1 className="text-6xl text-[#d19a8a] text-center mt-[1em] m-auto mb-[1em] font-bold">
+      <h1 className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-[#a4a4a4] to-[#0000ff] text-center mt-[1em] m-auto mb-[1em] font-bold">
         NORTH INDIA
       </h1>
       <div className="flex flex-col justify-center align-middle">
@@ -46,7 +46,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <h1 className="text-6xl text-[#d19a8a] text-center mt-[2em] mb-[0.6em] m-auto font-bold">
+      <h1 className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-[#a4a4a4] to-[#0000ff] text-center mt-[2em] mb-[0.6em] m-auto font-bold">
         EAST INDIA
       </h1>
       <div className="flex flex-col justify-center align-middle mt-0">
@@ -59,7 +59,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <h1 className="text-6xl text-[#d19a8a] text-center mt-[2em] mb-[0.6em] m-auto font-bold">
+      <h1 className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-[#a4a4a4] to-[#0000ff] text-center mt-[2em] mb-[0.6em] m-auto font-bold">
         SOUTH INDIA
       </h1>
       <div className="flex flex-col justify-center align-middle mt-0">
@@ -72,7 +72,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <h1 className="text-6xl text-[#d19a8a] text-center mt-[2em] mb-[0.6em] m-auto font-bold">
+      <h1 className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-[#a4a4a4] to-[#0000ff] text-center mt-[2em] mb-[0.6em] m-auto font-bold">
         WEST INDIA
       </h1>
       <div className="flex flex-col justify-center align-middle mt-0">

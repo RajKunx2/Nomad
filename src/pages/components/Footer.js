@@ -15,9 +15,9 @@ export default function Footer() {
           </h1>
         </Marquee>
       </div>
-      <div className="w-screen space-around h-auto bg-[#a29895] mt-20 flex pt-0 flex-col lg:flex-row justify-center align-middle">
+      <div className="w-screen space-around h-auto bg-opacity-60 backdrop-blur-lg mt-20 flex pt-0 flex-col lg:flex-row justify-center align-middle">
         <div className="mt-0 bg-opacity-10 backdrop-blur-xl">
-          <div className="font-bold p-auto text-sm text-center justify-center align-middle w-auto text-[#a36754] m-auto mt-6 mb-4">
+          <div className="font-bold p-auto text-sm text-center justify-center align-middle w-auto text-[#cabbb7] m-auto mt-6 mb-4">
             <div className="align-middle flex justify-center font-bold w-auto h-auto px-6 mx-0 mt-auto">
               &#169; Nomads.Ltd, 143/2 Lane Street, Gurgaon-110043 E-Mail:
               contact@nomadsltd.com 
@@ -25,7 +25,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="m-auto flex justify-center align-middle flex-col bg-opacity-10 backdrop-blur-xl">
-          <div className="flex font-bold justify-center m-auto text-[#a36754] flex-col mt-1">
+          <div className="flex font-bold justify-center m-auto text-[#cabbb7] flex-col mt-1">
             SECURITY AND PAYMENTS
           </div>
           <div>
@@ -36,7 +36,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="m-auto flex justify-center align-middle flex-col bg-opacity-10 backdrop-blur-xl">
-          <div className="flex font-bold justify-center m-auto text-[#a36754] flex-col mt-3">
+          <div className="flex font-bold justify-center m-auto text-[#cabbb7] flex-col mt-3">
             KEEP IN TOUCH
           </div>
           <div>

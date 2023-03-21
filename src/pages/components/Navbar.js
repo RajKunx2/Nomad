@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function Navbar() {
   return (
     <>
-      <div className="w-screen h-screen" id="front-page">
+      <div className="w-screen h-[480px] md:h-screen" id="front-page">
         <motion.nav
           animate={{
             x: 0,
