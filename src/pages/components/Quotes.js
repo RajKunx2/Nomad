@@ -6,7 +6,7 @@ export default function Quotes() {
     <div className="flex justify-center w-auto">
       <Marquee gradient={false} speed={80}>
         <h1
-          className="text-slate-200 text-2xl font-bold m-[3em] mb-[2em] "
+          className="text-[#ffffff] text-2xl font-bold m-[3em] mb-[2em] "
           id="quote"
         >
           <i>

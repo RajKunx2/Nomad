@@ -33,10 +33,10 @@ export default function Places(props) {
           <h1 className="font-bold mt-6 text-[#ffffff]">
             <u>{props.name}</u>
           </h1>
-          <p className="font-semibold text-xs w-[90%] m-4 text-[#cfcbc9]">
+          <p className="font-semibold text-xs w-[90%] m-4 text-[#ffffff]">
             {props.des}
           </p>
-          <button className="text-[#dddbdb] align-middle m-auto mb-4 bg-[#848abd] hover:bg-[#908987] rounded-lg w-[120px]">
+          <button className="text-[#ffffff] align-middle m-auto mb-4 bg-[#848abd] hover:bg-[#908987] rounded-lg w-[120px]">
             LEARN MORE
           </button>
         </div>
