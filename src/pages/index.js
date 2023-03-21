@@ -9,6 +9,7 @@ import WestData from "src/WestData.js";
 import SouthData from "src/SouthData.js";
 import EastData from "src/EastData.js";
 import { motion, useScroll } from "framer-motion";
+import Head from "next/head";
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
@@ -26,6 +27,9 @@ export default function Home() {
   });
   return (
     <>
+    <Head>
+        <title>Nomads</title>
+      </Head>
       <motion.div
         className="progress-bar"
         style={{ scaleX: scrollYProgress }}
@@ -33,7 +37,7 @@ export default function Home() {
       <Navbar />
       <Slides />
       <Quotes />
-      <h1 className="text-6xl text-transparent bg-clip-text bg-gradient-to-r  from-[#c1e865] via-[#8b4083] to-[#2a4cb3] text-center mt-[1em] m-auto mb-[1em] font-bold">
+      <h1 className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-[#ff8f4f] via-[#ffffff] to-[#42da3f] text-center mt-[1em] m-auto mb-[1em] font-bold">
         NORTH INDIA
       </h1>
       <div className="flex flex-col justify-center align-middle">
@@ -46,7 +50,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <h1 className="text-6xl text-transparent bg-clip-text bg-gradient-to-r  from-[#c1e865] via-[#8b4083] to-[#2a4cb3] text-center mt-[2em] mb-[0.6em] m-auto font-bold">
+      <h1 className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-[#ff8f4f] via-[#ffffff] to-[#42da3f] text-center mt-[2em] mb-[0.6em] m-auto font-bold">
         EAST INDIA
       </h1>
       <div className="flex flex-col justify-center align-middle mt-0">
@@ -59,7 +63,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <h1 className="text-6xl text-transparent bg-clip-text bg-gradient-to-r  from-[#c1e865] via-[#8b4083] to-[#2a4cb3] text-center mt-[2em] mb-[0.6em] m-auto font-bold">
+      <h1 className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-[#ff8f4f] via-[#ffffff] to-[#42da3f] text-center mt-[2em] mb-[0.6em] m-auto font-bold">
         SOUTH INDIA
       </h1>
       <div className="flex flex-col justify-center align-middle mt-0">
@@ -72,7 +76,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <h1 className="text-6xl text-transparent bg-clip-text bg-gradient-to-r  from-[#c1e865] via-[#8b4083] to-[#2a4cb3] text-center mt-[2em] mb-[0.6em] m-auto font-bold">
+      <h1 className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-[#ff8f4f] via-[#ffffff] to-[#42da3f] text-center mt-[2em] mb-[0.6em] m-auto font-bold">
         WEST INDIA
       </h1>
       <div className="flex flex-col justify-center align-middle mt-0">

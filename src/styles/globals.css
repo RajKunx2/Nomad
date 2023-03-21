@@ -9,7 +9,7 @@
   left: 0;
   right: 0;
   height: 10px;
-  background: #ffffff;
+  background:  linear-gradient(0.25turn, #ea8e2c, #ebf8e1, #3cf648);;
   transform-origin: 0%;
 }
 
@@ -21,7 +21,7 @@
 }
 body {
   /* background-image: url(https://i.ibb.co/p37VNzc/luca-calderone-8-Rr-MKja-W8-Qg-unsplash.jpg); */
-  background-image: url(https://i.ibb.co/2Mzw2KS/vecteezy-dramatic-panorama-sky-with-cloud-on-sunrise-and-sunset-time-3370922.jpg);
+  background-image: url(https://i.ibb.co/6Y9Yw39/vecteezy-dramatic-panorama-sky-with-cloud-on-sunrise-and-sunset-time-3370922-1-1.jpg);
   background-size: cover;
   height: auto;
 }
